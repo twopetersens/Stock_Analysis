@@ -1,6 +1,7 @@
 # Overview of VBA Refactor Coding
 
-The purpose of the VBA Refactor project was to streamline the stock analysis code used to analyze stock volumn and return for multiple years. Another purpose of refactoring the VBA code was to see if a code with less commands would result in faster calculation.
+The purpose of the VBA Refactor project was to streamline the stock analysis code by reducing the number of lines needed to calculate the volume and ROR on multiple stocks, across multiple years. By reducing the number of lines of code needed, there was also the expectation that the amount of time needed to calculate volume and ROR would be reduced.
+
 
   ## Results of Analysis
   
@@ -8,4 +9,6 @@ The purpose of the VBA Refactor project was to streamline the stock analysis cod
   
   ## Summary
   
-  There were two purposes in refactoring the stock analysis code. The first purpose was to code with fewer lines to reach the same results as the non-refactored code, which it did. The second purpose of the refactor was to potentially have code that would run faster than the original (with the logic that fewer lines of code would result in a faster calculation time). While not shown to be the case in the instance of the sample size of stocks being analyzed at this time, it is possible that the shorter refactored code would run faster on a larger data set than the original. 
+  
+  
+There were two purposes in refactoring the stock analysis code. The first purpose was to code with fewer lines to reach the same results as the non-refactored code, which it did. The second purpose of the refactor was to potentially have code that would run faster than the original (with the logic that fewer lines of code would result in a faster calculation time). While not shown to be the case in the instance of the sample size of stocks being analyzed at this time, it is possible that the shorter refactored code would run faster on a larger data set than the original. 
